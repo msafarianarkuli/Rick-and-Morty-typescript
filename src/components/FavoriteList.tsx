@@ -63,7 +63,7 @@ const FavoriteList = ({ open, onClose }: FavoriteListProps) => {
       </AppBar>
       <Grid container spacing={4} sx={{ p: 4 }}>
         {bookmarks.map((bookmark) => (
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item key={bookmark.id} xs={12} sm={6} md={4} lg={3}>
             <FavoriteCard data={bookmark} />
           </Grid>
         ))}
