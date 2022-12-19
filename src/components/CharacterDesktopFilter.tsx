@@ -1,12 +1,5 @@
-import { useState, useEffect } from 'react';
-import {
-  Box,
-  Typography,
-  TextField,
-  FormGroup,
-  FormControlLabel,
-  Checkbox,
-} from '@mui/material';
+import { useState } from 'react';
+import { Box } from '@mui/material';
 import { useSearchParams } from 'react-router-dom';
 
 import { statusInfo, genderInfo } from '../core/data/data';

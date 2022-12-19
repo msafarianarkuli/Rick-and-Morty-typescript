@@ -1,4 +1,4 @@
-import { Backdrop, CircularProgress, Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
 

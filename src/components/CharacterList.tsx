@@ -1,13 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useQuery } from 'react-query';
 import { useSearchParams } from 'react-router-dom';
-import {
-  Backdrop,
-  CircularProgress,
-  Grid,
-  Pagination,
-  Box,
-} from '@mui/material';
+import { Grid, Pagination, Box } from '@mui/material';
 
 import Card from './Card';
 import { getChars } from '../core/services/api';
