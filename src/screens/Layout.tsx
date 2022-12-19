@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 
 const Layout = () => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={1}>
       <Grid
         item
         md={3}
